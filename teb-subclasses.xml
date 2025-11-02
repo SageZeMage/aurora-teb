@@ -5,7 +5,7 @@
 		<description>All subclasses from The Elements &amp; Beyond (minimal feature stubs for Aurora selection).</description>
 		<author>Benevolent Evil (converted)</author>
 		<update version="1.0.0">
-			<file name="teb-subclasses.xml" url="https://raw.githubusercontent.com/&lt;your-user&gt;/aurora-teb/main/teb-subclasses.xml" />
+			<file name="teb-subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-subclasses.xml" />
 		</update>
 	</info>
 	<element name="Path of the Quake Bringer" type="Archetype" source="The Elements and Beyond" id="ID_TEB_TEB_ARCHETYPE_BARBARIAN_QUAKE_BRINGER">
