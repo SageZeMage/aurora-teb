@@ -5,7 +5,7 @@
 		<description>Source definitions for The Elements &amp; Beyond family (TEB, Spell Revisions, Spell Variants).</description>
 		<author>Benevolent Evil (converted)</author>
 		<update version="1.0.0">
-			<file name="teb-source.xml" url="https://raw.githubusercontent.com/&lt;your-user&gt;/aurora-teb/main/teb-source.xml" />
+			<file name="teb-source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-source.xml" />
 		</update>
 	</info>
 	<element name="The Elements and Beyond" type="Source" source="The Elements and Beyond" id="ID_TEB_SOURCE_THE_ELEMENTS_AND_BEYOND">
