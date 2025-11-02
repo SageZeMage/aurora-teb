@@ -5,7 +5,7 @@
 		<description>Feats from The Elements &amp; Beyond.</description>
 		<author>Benevolent Evil (converted)</author>
 		<update version="1.0.0">
-			<file name="teb-feats.xml" url="https://raw.githubusercontent.com/&lt;your-user&gt;/aurora-teb/main/teb-feats.xml" />
+			<file name="teb-feats.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-feats.xml" />
 		</update>
 	</info>
 	<element name="Aeromancer" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_AEROMANCER">
