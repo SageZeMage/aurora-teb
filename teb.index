@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<index>
+	<info>
+		<name>The Elements &amp; Beyond (TEB) – Index</name>
+		<description>Aurora index for TEB character-building packs (sources, subclasses, feats).</description>
+		<author>Benevolent Evil (converted)</author>
+		<update version="1.0.0">
+			<file name="teb.index" url="https://raw.githubusercontent.com/&lt;your-user&gt;/aurora-teb/main/teb.index" />
+		</update>
+	</info>
+	<files>
+		<file name="teb-source.xml" url="https://raw.githubusercontent.com/&lt;your-user&gt;/aurora-teb/main/teb-source.xml" />
+		<file name="teb-subclasses.xml" url="https://raw.githubusercontent.com/&lt;your-user&gt;/aurora-teb/main/teb-subclasses.xml" />
+		<file name="teb-feats.xml" url="https://raw.githubusercontent.com/&lt;your-user&gt;/aurora-teb/main/teb-feats.xml" />
+	</files>
+</index>

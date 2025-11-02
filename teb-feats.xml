@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+	<info>
+		<name>TEB – Feats</name>
+		<description>Feats from The Elements &amp; Beyond.</description>
+		<author>Benevolent Evil (converted)</author>
+		<update version="1.0.0">
+			<file name="teb-feats.xml" url="https://raw.githubusercontent.com/&lt;your-user&gt;/aurora-teb/main/teb-feats.xml" />
+		</update>
+	</info>
+	<element name="Aeromancer" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_AEROMANCER">
+		<description>
+			<p>You specialize in the magic of the air, commanding howling wind and thunderous storm. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Elementalist" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_ELEMENTALIST">
+		<description>
+			<p>You specialize in all four elements—air, earth, fire, and water—commanding them as one in a flowing, weaving rhythm. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Energy Specialist" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_ENERGY_SPECIALIST">
+		<description>
+			<p>You have explored the mysteries of one of the energies of your magic, gaining you the following benefits:</p>
+		</description>
+	</element>
+	<element name="Geomancer" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_GEOMANCER">
+		<description>
+			<p>You specialize in the magic of the earth, commanding earthen arms and armor and beckoning quakes from the ground beneath you. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Hydromancer" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_HYDROMANCER">
+		<description>
+			<p>You specialize in the magic of water, commanding seas, rivers, glaciers, and steam geysers all as one. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Pyromancer" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_PYROMANCER">
+		<description>
+			<p>You specialize in the magic of flame, commanding the largest, brightest, and most explosive of fires to reduce nearly anything to ash, smoke, and cinders. You gain the following benefits:</p>
+			<p>Whenever you cast a pyromancy spell that is {@b exploded}, you may choose the spell&amp;#x27;s range or one length, range, or radius within the spell&amp;#x27;s description. You treat that range, length, or radius as if it were 5 feet longer for this casting of the spell. This bonus cannot increase the range of any Self or Touch effects or spell ranges.</p>
+			<p>Right after you cast a pyromancy spell that is {@b ignited}, you can choose to ignite flammable objects that are not being worn or carried in a particular area. That area is your choice of the spell&amp;#x27;s area, the area within 10 feet of you, or the area within 10 feet of one creature or object that was dealt fire damage by the spell (you choose each time you cast). Each affected object that is already on fire takes fire damage equal to your proficiency bonus+ twice the spell&amp;#x27;s level that ignores resistance instead.</p>
+		</description>
+	</element>
+	<element name="Summoner" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_SUMMONER">
+		<description>
+			<p>You specialize in the magic of summoning powerful creatures to aid you in combat. Any creature summoned or created by a spell that you cast appears with 1 extra hit point per Hit Die it has. While you are within 30 feet of it and you can see it and control it, it gains a bonus to its AC and saving throws equal to half your proficiency bonus, and any ability checks to dispel it are made with disadvantage. This feat does not affect creatures you summon that have class levels.</p>
+			<p>Some summoning spells, such as {@spell summon beast|TCE} or {@spell summon shadowspawn|TCE}, use statistics for creatures that do not have any hit dice. When an effect such as that of the Summoner feat grants a creature extra hit points based on the number of Hit Dice it has, you can treat those creatures as if they had 1 Hit Die for every 8 maximum hit points, before any increases to hit points are applied.</p>
+		</description>
+	</element>
+	<element name="Ward Mage" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_WARD_MAGE">
+		<description>
+			<p>You have learned how to bolster your shields, barriers, and walls of magic beyond their normal capabilities in order to better control a battlefield and protect yourself and your allies. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Celestial Resilience" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_CELESTIAL_RESILIENCE">
+		<description>
+			<p>Your connection with the celestial light that has infused the bright elves is stronger and more pure than that of the common folk, making you hearty like an angel. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Crystal Telepathy" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_CRYSTAL_TELEPATHY">
+		<description>
+			<p>You have learned to connect with other minds as easily as you connect ( or once connected) with the Mother Crystai by tapping into your nature as either a being of mind or a being of celestial light. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Dark of the Deep" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_DARK_OF_THE_DEEP">
+		<description>
+			<p>You awaken to latent instincts you have from the cold, dark depths of the ocean, unlocking the hidden powers within you and enabling you to conjure inky clouds of mist and darkness. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Harbinger of Death" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_HARBINGER_OF_DEATH">
+		<description>
+			<p>You have been touched by the magic of death itself, whether by ancient lineage or eldritch accident, and the Raven Queen&amp;#x27;s power flows through you like blood. Instead of growing mad, your mind has become accustomed to the dark beyond death. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Kraken Anatomy" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_KRAKEN_ANATOMY">
+		<description>
+			<p>Your tentacles are covered in octopus suckers and sturdy enough that fewer are needed to support you, giving you an iron grip and an unparalleled advantage when wrestling. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Magic of the Dryads" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_MAGIC_OF_THE_DRYADS">
+		<description>
+			<p>You learn the ancient magic of the dryads, for which your people have a natural talent. You learn the {@spell thorn whip} spell and can cast it at-will, without expending a spell slot. You also learn {@spell barkskin} and {@spell pass without trace}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.</p>
+		</description>
+	</element>
+	<element name="Nimble Combatant" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_NIMBLE_COMBATANT">
+		<description>
+			<p>You are uncannily nimble and agile even for a member of your diminutive race, with matching tenacity and grit. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="Pixie Magical Talent" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_PIXIE_MAGICAL_TALENT">
+		<description>
+			<p>You gain a more complete mastery over your natural pixie magic. You learn the {@spell detect evil and good} spell and can cast it at-will, without expending a spell slot. You also learn {@spell detect thoughts} and {@spell fly}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.</p>
+		</description>
+	</element>
+	<element name="Scamp Social Tricks" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_SCAMP_SOCIAL_TRICKS">
+		<description>
+			<p>Your words have a special power, and you&amp;#x27;ve honed that power to an edge. You learn the {@spell friends} and {@spell message} spells and can cast them at-will. You also learn {@spell charm person} and {@spell enthrall}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all four spells. When cast in this way, they only require verbal components and can&amp;#x27;t affect {@condition deafened} creatures.</p>
+		</description>
+	</element>
+	<element name="Shard Swarm" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_SHARD_SWARM">
+		<description>
+			<p>You have meditated upon your nature as a fragment of a greater crystal and discovered how to relocate your mind in space, causing your physical body to follow and leaving a fragment of yourself behind to burst apart.</p>
+			<p>You learn the {@spell misty step} spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Constitution is your spellcasting ability for this spell. When you cast it in this way, the spell&amp;#x27;s range is doubled, and you can also choose to leave a cloud of crystal dust in a 15-foot diameter sphere centered on the space you teleported from which lasts until the end of your next turn. The cloud is difficult terrain and heavily obscured for other creatures.</p>
+		</description>
+	</element>
+	<element name="Sprite Physical Gifts" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_SPRITE_PHYSICAL_GIFTS">
+		<description>
+			<p>You have honed your tiny body past its physical peaks, making use of your fey nature to strengthen yourself beyond the normal limits of your size. You gain the following benefits:</p>
+		</description>
+	</element>
+	<element name="The Raven's Ear" type="Feat" source="The Elements and Beyond" id="ID_TEB_TEB_FEAT_THE_RAVENS_EAR">
+		<description>
+			<p>You have the hearing and mimicry capabilities of the raven, an extension of the corvian talent for memory and observation. You gain the following benefits:</p>
+		</description>
+	</element>
+</elements>
