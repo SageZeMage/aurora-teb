@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Benevolent Evil; The Elements and Beyond – Magic Weapons</name>
+    <description>Magic weapon variants and unique weapons from Benevolent Evil; The Elements and Beyond.</description>
+    <author url="https://benevolentevil.com">Benevolent Evil (Aurora conversion by SageZeMage)</author>
+    <update version="1.0.0">
+      <file name="teb-magicweapons.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-magicweapons.xml" />
+    </update>
+  </info>
+
+  <element name="Coldflame Weapon" type="Magic Item" source="TEB" id="ID_TEB_MAGIC_ITEM_COLDFLAME_WEAPON">
+    <description>
+      <p>You can use a bonus action to speak the command word for this magic weapon, causing icy blue flames to erupt from the striking end. These flames shed dim light in a 30-foot radius.</p>
+      <p class="indent">While the weapon is ablaze, you have resistance to fire damage. In addition, the weapon deals an extra 1d8 cold damage to any target it hits with a melee attack, and any fire damage those attacks would deal instead becomes cold damage.</p>
+      <p class="indent">The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the weapon.</p>
+      <p class="indent">This weapon is not flammable regardless of the materials used in its construction. Cold damage dealt by the weapon is maximized against fire elementals.</p>
+    </description>
+
+    <sheet>
+      <description>
+        <p>Bonus action: ignite icy blue flames (dim light 30 ft.). While ablaze, you have resistance to fire damage, the weapon deals an extra 1d8 cold damage on melee hits, and any fire damage those attacks would deal becomes cold damage instead. The flames end if you use a bonus action to dismiss them, or if you drop or sheathe the weapon. Cold damage from this weapon is maximized against fire elementals.</p>
+      </description>
+    </sheet>
+
+    <setters>
+      <set name="category">Magic Weapons</set>
+      <set name="cost" currency="gp">0</set>
+      <set name="type" addition="any melee weapon">Weapon</set>
+      <set name="rarity">Rare</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
+      <set name="name-format">Coldflame {{parent}}</set>
+      <set name="keywords">cold, fire, damage, elemental</set>
+    </setters>
+  </element>
+
+</elements>
