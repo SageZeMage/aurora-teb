@@ -12,6 +12,5 @@
 		<file name="teb-source.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-source.xml" />
 		<file name="teb-subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-subclasses.xml" />
 		<file name="teb-feats.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-feats.xml" />
-		<file name="teb-magicweapons.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-magicweapons.xml" />
 	</files>
 </index>
