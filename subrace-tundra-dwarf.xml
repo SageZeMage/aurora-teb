@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <update version="0.0.1">
+      <file name="subrace-tundra-dwarf.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/subrace-tundra-dwarf.xml"/>
+    </update>
+  </info>
+
+  <element name="Tundra Dwarf" type="Sub Race" source="Benevolent Evil; The Elements and Beyond" id="ID_TEB_SUB_RACE_TUNDRA_DWARF">
+    <supports>Dwarf</supports>
+    <description>
+      <p>As a tundra dwarf, you are shaped by howling winds, frozen stone, and endless white horizons. Your people carve their halls into permafrost and glacier rock, relying on hard-won caution, patience, and the shared warmth of the clan to survive.</p>
+      <p>If you’re a dwarf from the polar reaches or high frozen plateaus, you have this subrace, with the following traits.</p>
+      <p class="indent">
+        <strong><em>Ability Score Increase.</em></strong>
+        Your Wisdom score increases by 1.
+      </p>
+      <p class="indent">
+        <strong><em>Arctic Endurance.</em></strong>
+        You have resistance to cold damage. In addition, you are naturally adapted to cold climates, as described in the Dungeon Master’s Guide.
+      </p>
+      <p class="indent">
+        <strong><em>Tundra Survivalist.</em></strong>
+        You gain proficiency in the Survival skill. When you make a Wisdom (Survival) check related to tracking, navigating, or foraging in arctic or snowy environments, you can add double your proficiency bonus instead of your normal proficiency bonus.
+      </p>
+      <p class="indent">
+        <strong><em>Surefooted on Ice.</em></strong>
+        You have advantage on ability checks and saving throws made to avoid being knocked prone or moved against your will while you are standing on ice or snow.
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="wisdom" value="1"/>
+      <grant type="Racial Trait" id="ID_TEB_RACIAL_TRAIT_TUNDRA_DWARF_ARCTIC_ENDURANCE"/>
+      <grant type="Racial Trait" id="ID_TEB_RACIAL_TRAIT_TUNDRA_DWARF_TUNDRA_SURVIVALIST"/>
+      <grant type="Racial Trait" id="ID_TEB_RACIAL_TRAIT_TUNDRA_DWARF_SUREFOOTED_ON_ICE"/>
+    </rules>
+  </element>
+
+  <element name="Arctic Endurance" type="Racial Trait" source="Benevolent Evil; The Elements and Beyond" id="ID_TEB_RACIAL_TRAIT_TUNDRA_DWARF_ARCTIC_ENDURANCE">
+    <description>
+      <p>You have resistance to cold damage, and you are naturally adapted to cold climates, as described in the Dungeon Master’s Guide.</p>
+    </description>
+    <sheet>
+      <description>Resistance to cold damage; adapted to cold climates.</description>
+    </sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD"/>
+    </rules>
+  </element>
+
+  <element name="Tundra Survivalist" type="Racial Trait" source="Benevolent Evil; The Elements and Beyond" id="ID_TEB_RACIAL_TRAIT_TUNDRA_DWARF_TUNDRA_SURVIVALIST">
+    <description>
+      <p>You gain proficiency in the Survival skill. When you make a Wisdom (Survival) check related to tracking, navigating, or foraging in arctic or snowy environments, you can add double your proficiency bonus instead of your normal proficiency bonus.</p>
+    </description>
+    <sheet>
+      <description>Proficiency in Survival; double proficiency on Survival checks in arctic or snowy environments.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL"/>
+    </rules>
+  </element>
+
+  <element name="Surefooted on Ice" type="Racial Trait" source="Benevolent Evil; The Elements and Beyond" id="ID_TEB_RACIAL_TRAIT_TUNDRA_DWARF_SUREFOOTED_ON_ICE">
+    <description>
+      <p>You have advantage on ability checks and saving throws made to avoid being knocked prone or moved against your will while you are standing on ice or snow.</p>
+    </description>
+    <sheet>
+      <description>Advantage on checks and saves to avoid being knocked prone or moved while on ice or snow.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+
+</elements>
