@@ -13,5 +13,6 @@
 		<file name="teb-subclasses.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-subclasses.xml" />
 		<file name="teb-feats.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-feats.xml" />
 		<file name="teb-magicweapons.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/teb-magicweapons.xml" />
+		<file name="subrace-tundra-dwarf.xml" url="https://raw.githubusercontent.com/SageZeMage/aurora-teb/main/subrace-tundra-dwarf.xml" />
 	</files>
 </index>
